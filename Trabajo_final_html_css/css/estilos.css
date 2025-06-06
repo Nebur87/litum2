@@ -1,0 +1,50 @@
+body{
+    background-color: #faedc6;
+}
+header{
+    background-color: burlywood;
+}
+.izquierda{
+    float:left;
+}
+.centro{
+    width: 70%; margin-left:400px;
+}
+.nav{
+    display:flex; list-style: none; 
+}
+nav ul{
+    padding: 0 auto; 
+}
+nav ul a{
+    padding: 5px 20px;
+}
+nav li img{
+    display:flex; list-style: none;
+}
+.redes{
+    width: 100%; margin-left: 40%; 
+}
+.politicas{
+    display:flex; list-style: none; margin-left: 28%; padding: 30px;
+}
+.imagen{
+    padding-left: 20%; cursor: pointer;
+}
+h1{
+     width: 300px; margin-left:35%; text-align: center; text-decoration: underline;
+}
+.index ::target{ font-weight: bold;   
+}
+form{
+    width: 40%; margin-left:30%; text-size-adjust:initial ;
+}
+fieldset{
+    width: 100%;%; text-align: center; margin-bottom: 20px; padding:20px; text-indent:5px ; line-height: 10px;
+}
+.mapa{
+    padding-left: 30%; cursor: pointer;
+}
+.datos{
+    margin-left: 40%;
+}

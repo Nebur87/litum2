@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="./../css/estilos.css">
+</head>
+
+<body>
+    <header><br>
+        <img src="./../assets/images/litum_logo.jpg" alt="Logotipo de la empresa" width="15%" height="10%"
+            style="display: block; margin: 0 auto;">
+        <br>
+    </header>
+    <main>
+         <h1>Formulario de solitud</h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="./../index.html">Inicio</a></li>
+                <li><a href="producto.html"> Imágenes </a></li>
+                <li><a href="contacto.html"> Contactanos </a></li>
+                <li><a href="presupuesto.html"> Presupuesto </a></li>
+            </ul>
+        </nav><br>
+        <form action="" method="post">
+            <fieldset>
+                <legend>
+                    Datos Personales
+                </legend>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+                <div>
+                    <label for="email">E-mail    : </label>
+                    <input type="email" name="email" id="email" placeholder="Escribe tu email" required>
+                </div>
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu telefono" required>
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="escribenos">Para más información escribenos aquí:</label>
+                <textarea name="comentario" id="escribenos" placeholder="Pida más Información" maxlength="150"
+                    cools="90" rows="10" required></textarea>
+            </div>
+            <p>Acepta la política de privacidad
+                <input type="checkbox" value="Aceptar" name="aceptar" id="politica" required><label
+                    for="politica"></label>
+                   
+            </p>
+            <p> Acepta la protección de datos:
+                <input type="checkbox" value="Aceptar" name="aceptar" id="datos" required><label for="datos"></label>
+            </p>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form> <hr>
+
+            <footer>
+               <nav>
+            <ul class="politicas"><br>
+                <li><a href="./../views/aviso-legal.html">Aviso Legal</a></li>
+                <li><a href="./../views/politica.html">Política de Privacidad</a></li>
+                <li><a href="./../views/cookies.html">Política de Cookies</a></li>
+            </ul><br>
+            <div class="redes">
+                    <a href="http://facebook.com"><img src="./../assets/images/logo-fb.jpeg" width="5%" height="5%"></a>
+                    <a href="http://instagram.com"><img src="./../assets/images/logo-insta.jpeg" width="5%" height="5%"></a>
+                    <a href="http://tiktok.com"><img src="./../assets/images/logo-tiktok.jpg" width="5%" height="5%"></a>
+            </div><br>
+        </nav>
+
+            </footer>
+</body>
+
+</html>
